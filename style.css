@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #cBd6e5;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+}
+
+input, button {
+    padding: 12px;
+    font-size: 16px;
+}
+
+#lista-de-tarefas {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.completo {
+    text-decoration: line-through;
+    font-size: 20px;
+}
+
